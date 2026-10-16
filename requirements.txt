@@ -3,3 +3,5 @@ scikit-learn
 imbalanced-learn
 joblib
 pytest
+python-dotenv
+google-genai
