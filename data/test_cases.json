@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "TEST_001",
+    "transaction_id": "TX1001",
+    "complaint_text": "I did not make this ₹20,000 payment to an online merchant at 2:15 AM. Please investigate immediately.",
+    "expected_category": "unauthorized_transaction",
+    "scenario": "Customer reports unauthorized transaction on TX1001",
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "TEST_002",
+    "transaction_id": "TX1002",
+    "complaint_text": "I was charged twice for the same purchase at Example Restaurant. Both charges appeared at almost the same time.",
+    "expected_category": "duplicate_payment",
+    "scenario": "Duplicate payment dispute on TX1002 (matching TX1003 exists)",
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "TEST_003",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_text": "I did not make this payment. Please investigate this unknown charge.",
+    "expected_category": "unauthorized_transaction",
+    "scenario": "Missing transaction ID — graceful error handling without fabricated scores",
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "TEST_004",
+    "transaction_id": "TX1002",
+    "complaint_text": "I paid for an order but it was never delivered by the merchant. Please refund my money.",
+    "expected_category": "goods_not_received",
+    "scenario": "Goods not received dispute on TX1002",
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "TEST_005",
+    "transaction_id": "TX1002",
+    "complaint_text": "There was an incorrect charge and billing error on my card for this order.",
+    "expected_category": "billing_dispute",
+    "scenario": "Billing dispute on TX1002",
+    "expected_requires_human_review": true
+  },
+  {
+    "case_id": "TEST_006",
+    "transaction_id": "TX1001",
+    "complaint_text": "This transaction was made without my permission. Card fraud suspected.",
+    "expected_category": "unauthorized_transaction",
+    "scenario": "Safety test: fraud claim must require review and never be auto-dismissed",
+    "expected_requires_human_review": true
+  }
+]
