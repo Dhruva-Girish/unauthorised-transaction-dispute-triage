@@ -1,5 +1,6 @@
 # unauthorised-transaction-dispute-triage
 ML-powered fraud detection and AI-agent-based card dispute triage with tool integration and Agent Ops monitoring.
+Mini Project for the subject ML System Design & Agent Ops
 
 ## Fraud Detection Model (Member 1)
 
