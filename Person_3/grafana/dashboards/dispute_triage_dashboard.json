@@ -11,39 +11,43 @@
       "title": "Total Inbound Dispute Complaints",
       "type": "stat",
       "gridPos": { "h": 6, "w": 6, "x": 0, "y": 0 },
-      "targets": [{ "expr": "sum(dispute_api_requests_total{endpoint=~'.*triage.*'}) or vector(0)" }]
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "none" },
+      "targets": [{ "expr": "sum(dispute_api_requests_total) or vector(0)", "legendFormat": "Total Requests" }]
     },
     {
       "title": "End-to-End Triage Latency (P95)",
       "type": "stat",
       "gridPos": { "h": 6, "w": 6, "x": 6, "y": 0 },
-      "targets": [{ "expr": "((histogram_quantile(0.95, sum(rate(dispute_triage_duration_seconds_bucket[5m])) by (le)) * 1000) >= 0) or vector(0)" }],
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "none" },
+      "targets": [{ "expr": "clamp_min(histogram_quantile(0.95, sum(rate(dispute_triage_duration_seconds_bucket[5m])) by (le)) * 1000, 0) or vector(0)", "legendFormat": "P95 ms" }],
       "fieldConfig": { "defaults": { "unit": "ms" } }
     },
     {
       "title": "SLA Compliance Rate (<500ms Target)",
       "type": "gauge",
       "gridPos": { "h": 6, "w": 6, "x": 12, "y": 0 },
-      "targets": [{ "expr": "(dispute_sla_compliance_ratio * 100) or vector(100)" }],
-      "fieldConfig": { "defaults": { "min": 0, "max": 100, "unit": "percent" } }
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] } },
+      "targets": [{ "expr": "(dispute_sla_compliance_ratio * 100) or vector(100)", "legendFormat": "SLA %" }],
+      "fieldConfig": { "defaults": { "min": 0, "max": 100, "unit": "percent", "thresholds": { "mode": "absolute", "steps": [{ "color": "red", "value": 0 }, { "color": "yellow", "value": 80 }, { "color": "green", "value": 95 }] } } }
     },
     {
       "title": "Active Cases in Queue",
       "type": "stat",
       "gridPos": { "h": 6, "w": 6, "x": 18, "y": 0 },
-      "targets": [{ "expr": "sum(dispute_active_cases_total) or vector(0)" }]
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "none" },
+      "targets": [{ "expr": "dispute_active_cases_total or vector(0)", "legendFormat": "Active Cases" }]
     },
     {
       "title": "Triage Request Rate by Category",
       "type": "timeseries",
       "gridPos": { "h": 8, "w": 12, "x": 0, "y": 6 },
-      "targets": [{ "expr": "sum(rate(dispute_triage_duration_seconds_count[1m])) by (category)" }]
+      "targets": [{ "expr": "sum(rate(dispute_api_requests_total[1m])) by (category)", "legendFormat": "{{category}}" }]
     },
     {
       "title": "ML Fraud Model Inference Latency Distribution",
       "type": "timeseries",
       "gridPos": { "h": 8, "w": 12, "x": 12, "y": 6 },
-      "targets": [{ "expr": "((histogram_quantile(0.95, sum(rate(ml_model_inference_latency_seconds_bucket[1m])) by (le)) * 1000) >= 0) or vector(0)" }],
+      "targets": [{ "expr": "clamp_min(histogram_quantile(0.95, sum(rate(ml_model_inference_latency_seconds_bucket[1m])) by (le)) * 1000, 0) or vector(0)", "legendFormat": "P95 Inference ms" }],
       "fieldConfig": { "defaults": { "unit": "ms" } }
     }
   ],
@@ -51,5 +55,7 @@
   "style": "dark",
   "tags": ["dispute", "mlops", "agentops"],
   "time": { "from": "now-1h", "to": "now" },
-  "title": "Card Dispute Triage & Risk Assessment Overview"
+  "title": "Card Dispute Triage & Risk Assessment Overview",
+  "uid": "dispute-triage-overview",
+  "version": 2
 }

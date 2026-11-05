@@ -191,11 +191,12 @@ if selected_view == "📝 Triage Dispute":
         # 4 clean native Streamlit metrics (Adapts to both Light & Dark themes natively)
         m1, m2, m3, m4 = st.columns(4)
         with m1:
-            st.metric("Dispute Category", cat_display)
+            st.markdown("**Dispute Category**")
+            st.markdown(f"### {cat_display}")
         with m2:
             st.metric("Priority Queue", prio_display)
         with m3:
-            st.metric("ML Fraud Risk", f"{prob_str} ({risk})")
+            st.metric("ML Fraud Risk", prob_str, delta=risk, delta_color="off")
         with m4:
             st.metric("Human Review", "Required" if requires_hr else "Auto-Resolved")
 

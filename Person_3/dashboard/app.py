@@ -157,14 +157,15 @@ if selected_view == "📝 Triage Dispute":
         requires_hr = latest_result.get("requires_human_review", True)
         case_id = latest_result.get("case_id", "N/A")
 
-        # Clean native Streamlit metric cards (Adapts to Dark and Light modes)
+        # 4-card result summary — use markdown labels + metric values for dark-mode safety
         m1, m2, m3, m4 = st.columns(4)
         with m1:
-            st.metric("Dispute Category", cat_label)
+            st.markdown("**Dispute Category**")
+            st.markdown(f"### {cat_label}")
         with m2:
             st.metric("Priority Queue", priority)
         with m3:
-            st.metric("ML Fraud Risk", f"{prob_str} ({risk_level})")
+            st.metric("ML Fraud Risk", prob_str, delta=risk_level, delta_color="off")
         with m4:
             st.metric("Human Review", "Required" if requires_hr else "Auto-Resolved")
 
