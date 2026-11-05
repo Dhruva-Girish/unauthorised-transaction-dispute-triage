@@ -1,0 +1,42 @@
+[
+  {
+    "eval_id": "TRULENS_001",
+    "complaint_text": "I did not make this ₹20,000 transaction. My card was stolen.",
+    "transaction_id": "TX1001",
+    "expected_category": "unauthorized_transaction",
+    "expected_requires_human_review": true,
+    "ground_truth_context": "Regulation E unauthorized card transfer policies."
+  },
+  {
+    "eval_id": "TRULENS_002",
+    "complaint_text": "I was charged twice for the same restaurant meal within 1 minute.",
+    "transaction_id": "TX1002",
+    "expected_category": "duplicate_payment",
+    "expected_requires_human_review": true,
+    "ground_truth_context": "Duplicate payment 10-minute matching window procedure."
+  },
+  {
+    "eval_id": "TRULENS_003",
+    "complaint_text": "I paid for the shoes two weeks ago but the package never arrived.",
+    "transaction_id": "TX1002",
+    "expected_category": "goods_not_received",
+    "expected_requires_human_review": true,
+    "ground_truth_context": "Merchant delivery tracking evidence verification."
+  },
+  {
+    "eval_id": "TRULENS_004",
+    "complaint_text": "I cancelled this subscription last month but was billed again.",
+    "transaction_id": "TX1002",
+    "expected_category": "billing_dispute",
+    "expected_requires_human_review": true,
+    "ground_truth_context": "Cancellation notice confirmation and merchant TOS."
+  },
+  {
+    "eval_id": "TRULENS_005",
+    "complaint_text": "Unknown debit on my statement with invalid ID.",
+    "transaction_id": "TX-NOT-FOUND",
+    "expected_category": "unauthorized_transaction",
+    "expected_requires_human_review": true,
+    "ground_truth_context": "Missing transaction ID handling without fabricated scores."
+  }
+]

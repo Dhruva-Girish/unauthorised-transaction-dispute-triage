@@ -1,0 +1,36 @@
+
+[
+  {
+    "transaction_id": "TX1001",
+    "customer_id": "CUST001",
+    "amount": 20000,
+    "currency": "INR",
+    "merchant": "Example Online Store",
+    "timestamp": "2026-10-15T02:15:00",
+    "country": "IN",
+    "device_id": "DEV099",
+    "model_features": null
+  },
+  {
+    "transaction_id": "TX1002",
+    "customer_id": "CUST002",
+    "amount": 1200,
+    "currency": "INR",
+    "merchant": "Example Restaurant",
+    "timestamp": "2026-10-15T13:30:00",
+    "country": "IN",
+    "device_id": "DEV002",
+    "model_features": null
+  },
+  {
+    "transaction_id": "TX1003",
+    "customer_id": "CUST002",
+    "amount": 1200,
+    "currency": "INR",
+    "merchant": "Example Restaurant",
+    "timestamp": "2026-10-15T13:31:00",
+    "country": "IN",
+    "device_id": "DEV002",
+    "model_features": null
+  }
+]
