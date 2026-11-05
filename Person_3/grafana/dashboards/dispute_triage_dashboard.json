@@ -1,0 +1,55 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "title": "Total Inbound Dispute Complaints",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 6, "x": 0, "y": 0 },
+      "targets": [{ "expr": "sum(dispute_api_requests_total{endpoint=~'.*triage.*'}) or vector(0)" }]
+    },
+    {
+      "title": "End-to-End Triage Latency (P95)",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 6, "x": 6, "y": 0 },
+      "targets": [{ "expr": "((histogram_quantile(0.95, sum(rate(dispute_triage_duration_seconds_bucket[5m])) by (le)) * 1000) >= 0) or vector(0)" }],
+      "fieldConfig": { "defaults": { "unit": "ms" } }
+    },
+    {
+      "title": "SLA Compliance Rate (<500ms Target)",
+      "type": "gauge",
+      "gridPos": { "h": 6, "w": 6, "x": 12, "y": 0 },
+      "targets": [{ "expr": "(dispute_sla_compliance_ratio * 100) or vector(100)" }],
+      "fieldConfig": { "defaults": { "min": 0, "max": 100, "unit": "percent" } }
+    },
+    {
+      "title": "Active Cases in Queue",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 6, "x": 18, "y": 0 },
+      "targets": [{ "expr": "sum(dispute_active_cases_total) or vector(0)" }]
+    },
+    {
+      "title": "Triage Request Rate by Category",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 6 },
+      "targets": [{ "expr": "sum(rate(dispute_triage_duration_seconds_count[1m])) by (category)" }]
+    },
+    {
+      "title": "ML Fraud Model Inference Latency Distribution",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 6 },
+      "targets": [{ "expr": "((histogram_quantile(0.95, sum(rate(ml_model_inference_latency_seconds_bucket[1m])) by (le)) * 1000) >= 0) or vector(0)" }],
+      "fieldConfig": { "defaults": { "unit": "ms" } }
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["dispute", "mlops", "agentops"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Card Dispute Triage & Risk Assessment Overview"
+}

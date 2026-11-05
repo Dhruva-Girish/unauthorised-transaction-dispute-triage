@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package dispute.v1;
+
+service DisputeTriageService {
+  // Remote procedure call for ML fraud prediction
+  rpc PredictFraud(FraudPredictionRequest) returns (FraudPredictionResponse);
+
+  // Remote procedure call for end-to-end complaint triage
+  rpc TriageDispute(TriageDisputeRequest) returns (TriageDisputeResponse);
+}
+
+message FraudPredictionRequest {
+  string transaction_id = 1;
+  map<string, float> features = 2;
+}
+
+message FraudPredictionResponse {
+  float fraud_probability = 1;
+  string risk_level = 2;
+  string model_name = 3;
+  float inference_latency_ms = 4;
+}
+
+message TriageDisputeRequest {
+  string complaint_text = 1;
+  string transaction_id = 2;
+  string customer_id = 3;
+}
+
+message TriageDisputeResponse {
+  string case_id = 1;
+  string transaction_id = 2;
+  string complaint_category = 3;
+  float fraud_probability = 4;
+  string risk_level = 5;
+  string priority = 6;
+  repeated string evidence_summary = 7;
+  string recommended_action = 8;
+  bool requires_human_review = 9;
+  string status = 10;
+  string error = 11;
+  float execution_latency_ms = 12;
+}

@@ -1,0 +1,48 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 2,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "title": "SLI 1: Triage API Latency Compliance (<500ms)",
+      "type": "gauge",
+      "gridPos": { "h": 7, "w": 8, "x": 0, "y": 0 },
+      "targets": [{ "expr": "(dispute_sla_compliance_ratio * 100) or vector(100)" }],
+      "fieldConfig": { "defaults": { "min": 0, "max": 100, "unit": "percent", "thresholds": { "mode": "absolute", "steps": [{ "color": "red", "value": null }, { "color": "yellow", "value": 90 }, { "color": "green", "value": 95 }] } } }
+    },
+    {
+      "title": "SLI 2: Service Availability Rate",
+      "type": "gauge",
+      "gridPos": { "h": 7, "w": 8, "x": 8, "y": 0 },
+      "targets": [{ "expr": "(sum(rate(dispute_api_requests_total{status_code!~'5..'}[5m])) / sum(rate(dispute_api_requests_total[5m])) * 100 >= 0) or vector(100)" }],
+      "fieldConfig": { "defaults": { "min": 0, "max": 100, "unit": "percent", "thresholds": { "mode": "absolute", "steps": [{ "color": "red", "value": null }, { "color": "green", "value": 99.5 }] } } }
+    },
+    {
+      "title": "Data Drift Alert Indicator",
+      "type": "stat",
+      "gridPos": { "h": 7, "w": 8, "x": 16, "y": 0 },
+      "targets": [{ "expr": "ml_data_drift_detected or vector(0)" }],
+      "fieldConfig": { "defaults": { "mappings": [{ "type": "value", "options": { "0": { "text": "STABLE", "color": "green" }, "1": { "text": "DRIFT DETECTED", "color": "red" } } }] } }
+    },
+    {
+      "title": "P50, P95, and P99 Latency Percentiles",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 7 },
+      "targets": [
+        { "expr": "((histogram_quantile(0.50, sum(rate(dispute_triage_duration_seconds_bucket[5m])) by (le)) * 1000) >= 0) or vector(0)", "legendFormat": "P50" },
+        { "expr": "((histogram_quantile(0.95, sum(rate(dispute_triage_duration_seconds_bucket[5m])) by (le)) * 1000) >= 0) or vector(0)", "legendFormat": "P95" },
+        { "expr": "((histogram_quantile(0.99, sum(rate(dispute_triage_duration_seconds_bucket[5m])) by (le)) * 1000) >= 0) or vector(0)", "legendFormat": "P99" }
+      ],
+      "fieldConfig": { "defaults": { "unit": "ms" } }
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["sla", "reliability", "latency"],
+  "time": { "from": "now-3h", "to": "now" },
+  "title": "Dispute Service SLA/SLO & Latency Dashboard"
+}

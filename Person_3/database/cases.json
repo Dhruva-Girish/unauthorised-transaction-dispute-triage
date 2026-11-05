@@ -1,0 +1,2149 @@
+[
+  {
+    "case_id": "CASE-3F589CA0",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-87E3FD01",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-828A77AF",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-907DE476",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-5BF1ABA3",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unknown",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-04AA87FA",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-B1ADD795",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-F124ADF8",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-CF0E056A",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-EC5B6BF7",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-CB5C6FFE",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-CA9E5EF2",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-FE731CDC",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-33B9E1D6",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-FDE851A2",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-66996932",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-A456D5DE",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-347BCD26",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-F5AB40D6",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-66FB0F79",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-EB600CDD",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-0C97C54B",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-F10091AE",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-97332A7C",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-9743BF87",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-DF77F859",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-6FD12BE0",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-8EEA8D5B",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-373A0A38",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-18DF8D0F",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-BB179637",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-BF3DF2E7",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-3A27B48D",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-850216FC",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-F6234A41",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-A79E4047",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-F0B028B0",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-F46174CD",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-94F68936",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-C004D253",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-2FD3F734",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-9D177426",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-CA6A27FE",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-32DAEC61",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-3E4DE2D4",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-8D9B5DDB",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-7C972730",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-39C47838",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-AC58CB3F",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-B423E226",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-B002B7F9",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-EB94EB0C",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-8F732293",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-9B6F4E21",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-1A539580",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-AACDC0BF",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-01655F26",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-87AA9FF0",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-114F12F0",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-CD1ECABA",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-4E99A05F",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-1EF57B5B",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-C117936D",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-29F31845",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-2A2EDE0A",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-FA7D9DDB",
+    "transaction_id": "TX1002",
+    "complaint_category": "duplicate_payment",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "1 possible matching transaction(s) found.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review matching transactions and verify whether a duplicate charge occurred.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-F3CB56A6",
+    "transaction_id": "TX-NOT-FOUND",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [],
+    "recommended_action": "Request valid transaction information and review the complaint.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": "Transaction not found."
+  },
+  {
+    "case_id": "CASE-5F7A456A",
+    "transaction_id": "TX1002",
+    "complaint_category": "goods_not_received",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Request order and delivery evidence and route the case for merchant-dispute review.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-7CB65829",
+    "transaction_id": "TX1002",
+    "complaint_category": "billing_dispute",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "medium",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Review the charge and relevant billing records.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-328F7C05",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": null,
+    "risk_level": "unavailable",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud score is unavailable."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null
+  },
+  {
+    "case_id": "CASE-141DB27C",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 4510.15,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-8DEAA5A6",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 13.49,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-083CB736",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: s: Cardholder may bear full liability for u..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 16.52,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-989042E7",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: - **Definition**: Multiple identical charges billed for a single pu..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3756.23,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-F0ED02DC",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 4834.13,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-A27BA28A",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: - **Definition**: Multiple identical charges billed for a single pu..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 15.93,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-54BFC5FA",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: - **Definition**: Multiple identical charges billed for a single pu..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 12.45,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-3304EF35",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3875.02,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-2301904B",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [Classification Schema]: refund credit).\n\n6. **unknown**:\n   - Ambiguous, unparseable, or missing cu..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3778.55,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-B5B03135",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3968.9,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-B6FF2C8F",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: by hours or days, request itemized receipts from the merchant...."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3730.52,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-F614E561",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: by hours or days, request itemized receipts from the merchant...."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3930.11,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-F3E0F2B4",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 4293.04,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-9173219A",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: by hours or days, request itemized receipts from the merchant...."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 16.32,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-F5C2A4B0",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: by hours or days, request itemized receipts from the merchant...."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 70.96,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-CCD7CD41",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [Regulatory Rules]: # Regulatory Compliance & Legal Framework (Regulation E & Banking Mandates)..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 3700.53,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-4E210928",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: - **Definition**: Multiple identical charges billed for a single pu..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 4339.48,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-E66A9D3B",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [Regulatory Rules]: # Regulatory Compliance & Legal Framework (Regulation E & Banking Mandates)..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 11.59,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-D9D757F7",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [Regulatory Rules]: # Regulatory Compliance & Legal Framework (Regulation E & Banking Mandates)..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 73.21,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-AED98937",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Unauthorized Transaction Claims (Fraud & Card Compromise)]: - **Definition**: A transaction init..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 7586.64,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-AE369179",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [Classification Schema]: refund credit).\n\n6. **unknown**:\n   - Ambiguous, unparseable, or missing cu..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 5934.2,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-F9F1FC58",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 18.02,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-5BEBE017",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 36.18,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-D5B0116C",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [2. Duplicate Billing Disputes]: by hours or days, request itemized receipts from the merchant...."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 6186.36,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-CE30BD6D",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: - **Notice Window**: Cardholder must report..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 5147.29,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-0C535CD9",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Unauthorized Transaction Claims (Fraud & Card Compromise)]: - **Definition**: A transaction init..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 22.78,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-D9D57960",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Unauthorized Transaction Claims (Fraud & Card Compromise)]: - **Definition**: A transaction init..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 33.87,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-224D9F19",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: s: Cardholder may bear full liability for u..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 6364.04,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-2CA4242C",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [Classification Schema]: Request merchant delivery tracking evidence.\n\n4. **billing_dispute**:\n   - ..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 4743.53,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "TEST_CASE_001",
+    "transaction_id": "TX9999",
+    "customer_id": "CUST9999",
+    "complaint_text": "Test unauthorized charge of $100",
+    "complaint_category": "unauthorized_transaction",
+    "priority": "high",
+    "risk_level": "high",
+    "fraud_probability": 0.88,
+    "recommended_action": "escalate_to_human",
+    "requires_human_review": true,
+    "confidence_score": 0.92,
+    "evidence_summary": [
+      "Suspicious charge flagged by unit test."
+    ],
+    "status": "under_review"
+  },
+  {
+    "case_id": "TEST_CASE_002",
+    "transaction_id": "TX9998",
+    "customer_id": "CUST9998",
+    "complaint_category": "duplicate_charge",
+    "priority": "medium",
+    "risk_level": "low",
+    "fraud_probability": 0.15,
+    "recommended_action": "Refund processed",
+    "requires_human_review": true,
+    "status": "resolved"
+  },
+  {
+    "case_id": "CASE-7ACB52E2",
+    "transaction_id": "TX1001",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.0004913242438631354,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: s: Cardholder may bear full liability for u..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 15.02,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE-C3720DEA",
+    "transaction_id": "TX1002",
+    "complaint_category": "unauthorized_transaction",
+    "fraud_probability": 0.00025792371279748403,
+    "risk_level": "low",
+    "priority": "review_required",
+    "evidence_summary": [
+      "Transaction record retrieved successfully.",
+      "Customer reports that they did not authorize the transaction.",
+      "Fraud model returned risk level: low.",
+      "Policy Reference: [1. Electronic Fund Transfer Act / Regulation E Rights]: s: Cardholder may bear full liability for u..."
+    ],
+    "recommended_action": "Investigate the unauthorized-transaction claim regardless of the model score.",
+    "requires_human_review": true,
+    "status": "under_review",
+    "error": null,
+    "execution_metadata": {
+      "steps": [
+        "classify_complaint",
+        "lookup_transaction",
+        "retrieve_policy_rag",
+        "evaluate_fraud",
+        "synthesize_decision",
+        "enforce_safety"
+      ],
+      "latency_ms": 16.39,
+      "safety_notes": [
+        "Safety Note: Low ML fraud score noted, but claim must remain under review per banking safety rules."
+      ]
+    }
+  }
+]
