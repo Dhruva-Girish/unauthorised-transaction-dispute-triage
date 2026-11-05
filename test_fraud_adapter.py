@@ -1,5 +1,6 @@
 
 import pandas as pd
+from pathlib import Path
 
 from agent.tools import check_fraud_score
 from ml.fraud_model import FEATURE_NAMES
@@ -8,7 +9,10 @@ from ml.fraud_model import FEATURE_NAMES
 def test_fraud_model_adapter_with_real_dataset_rows():
     # Load two examples from the actual dataset:
     # one normal transaction and one fraudulent transaction.
-    df = pd.read_csv("data/creditcard.csv")
+    full_dataset = Path("data/creditcard.csv")
+    sample_dataset = Path("ml/data/creditcard_sample.csv")
+    dataset_path = full_dataset if full_dataset.exists() else sample_dataset
+    df = pd.read_csv(dataset_path)
 
     feature_columns = FEATURE_NAMES
 

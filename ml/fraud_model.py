@@ -3,6 +3,7 @@ from pathlib import Path
 
 import joblib
 import pandas as pd
+import math
 
 ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = ROOT / "ml" / "artifacts" / "fraud_pipeline.joblib"
@@ -24,12 +25,19 @@ def predict_fraud(transaction_features: dict) -> dict:
             f"unexpected: {sorted(extra)}"
         )
 
+    for name in FEATURE_NAMES:
+        value = transaction_features[name]
+        if value is None:
+            raise ValueError("Transaction features cannot contain null values.")
+        try:
+            if not math.isfinite(float(value)):
+                raise ValueError(f"Transaction feature '{name}' must be finite.")
+        except (TypeError, ValueError, OverflowError) as exc:
+            raise ValueError(f"Transaction feature '{name}' must be numeric.") from exc
+
     row = pd.DataFrame(
         [{name: transaction_features[name] for name in FEATURE_NAMES}]
     )
-
-    if row.isnull().any().any():
-        raise ValueError("Transaction features cannot contain null values.")
 
     probability = float(_model.predict_proba(row)[0, 1])
 
