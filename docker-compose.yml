@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  # Person 3: FastAPI Backend & gRPC Server
+  backend:
+    build:
+      context: .
+      dockerfile: Person_3/docker/Dockerfile.backend
+    container_name: dispute_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+      - "50051:50051"
+    environment:
+      - PORT=8000
+      - GRPC_PORT=50051
+      - API_KEY_SECRET=${API_KEY_SECRET:-dispute-triage-default-secret-key-change-in-prod}
+      - ML_SERVICE_URL=http://ml_service:8001
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    depends_on:
+      - ml_service
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - dispute_net
+
+  # Person 1: ML Fraud Prediction Microservice
+  ml_service:
+    build:
+      context: .
+      dockerfile: Person_3/docker/Dockerfile.ml
+    container_name: dispute_ml_service
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - dispute_net
+
+  # Person 3: Streamlit Operational Investigator Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Person_3/docker/Dockerfile.dashboard
+    container_name: dispute_dashboard
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - BACKEND_API_URL=http://backend:8000
+    depends_on:
+      - backend
+    networks:
+      - dispute_net
+
+  # Observability: Prometheus Metrics Exporter
+  prometheus:
+    image: prom/prometheus:v2.48.0
+    container_name: dispute_prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./Person_3/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    networks:
+      - dispute_net
+
+  # Observability: Grafana Visual Analytics Dashboard
+  grafana:
+    image: grafana/grafana:10.2.2
+    container_name: dispute_grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - ./Person_3/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./Person_3/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      - prometheus
+    networks:
+      - dispute_net
+
+networks:
+  dispute_net:
+    driver: bridge
